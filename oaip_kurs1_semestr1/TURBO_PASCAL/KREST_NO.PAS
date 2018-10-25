@@ -54,13 +54,13 @@ begin
         readkey;
         clrscr;
 
+        writeln('  #   #  ');
+        writeln('#########');
+        writeln('  #   #  ');
+        writeln('#########');    
+        writeln('  #   #  ');
         for l:=1 to 5 do
         begin
-            writeln('  #   #  ');
-            writeln('#########');
-            writeln('  #   #  ');
-            writeln('#########');    
-            writeln('  #   #  ');
             writeln;
             writeln('put x');
             readln(x[l]);
